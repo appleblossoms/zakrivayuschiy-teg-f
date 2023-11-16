@@ -367,9 +367,10 @@
   }
 }
 
-@supports (font-variation-settings: normal) {
+@supports (font-variation-settings: initial) {
 
   .page {
+    font-variation-settings: initial;
     font-family: var(--main-font), sans-serif;
   }
 }
