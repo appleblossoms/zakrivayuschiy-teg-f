@@ -49,6 +49,11 @@
   font-weight: var(--constant);
 }
 
+.card__icon-button,
+.content-button {
+  cursor: pointer;
+}
+
 /* header */
 
 .header {
@@ -174,16 +179,15 @@
 
 .content-button:focus {
   outline: none;
-  box-shadow: 2px 2px var(--accent-color);
-  transition: box-shadow 0.3s ease;
 }
 
 .card__icon-button {
   width: 39px;
-  height: 36px;
-  border: none;
+  height: 38px;
+  border: 2px solid transparent;
   background: none;
   padding: 1px 0;
+  transition: border 0.3s ease;
 }
 
 .card__icon-button:focus {
@@ -191,7 +195,7 @@
 }
 
 .card__icon-button:focus-visible {
-  outline: 2px solid var(--accent-color);
+  border-color: var(--accent-color); 
 }
 
 .card__like-button {
@@ -344,6 +348,11 @@
 
 .popup-button:focus {
   box-shadow: none;
+}
+
+.popup-button:focus-visible {
+  box-shadow: 2px 2px var(--accent-color);
+  transition: box-shadow 0.3s ease;
 }
 
 /* at-rules */
