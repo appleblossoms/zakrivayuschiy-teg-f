@@ -91,7 +91,6 @@
 
 .like-icon.is-liked .heart {
   animation: 0.1s scale 0.3s ease-in alternate-reverse;
-  transition: all 0.3s;
   transform-origin: center;
 }
 

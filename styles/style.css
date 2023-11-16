@@ -170,7 +170,6 @@
   border: 2px solid var(--accent-color);
   font-size: 0.875rem;
   line-height: 90%;
-  transition: all 0.3s ease-in-out;
 }
 
 .content-button:focus {
@@ -220,7 +219,7 @@
 
 .main-body {
   fill: transparent;
-  transition: fill 0.3s ease-in-out;
+  transition: fill 0.3s ease-in;
 }
 
 .sparks {
