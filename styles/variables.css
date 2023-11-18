@@ -9,6 +9,7 @@
   --bg-color: #fff;
   --accent-color: #000;
   --stroke-color: #fff;
+  --svg-fill-color: var(--bg-color);
   --heart-color: #f00;
   --bg-gradient: repeating-linear-gradient(
       to right,

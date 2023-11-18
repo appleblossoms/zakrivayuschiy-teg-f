@@ -12,6 +12,7 @@
   --bg-color: #000;
   --accent-color: #00cc14;
   --stroke-color: #000;
+  --svg-fill-color: var(--accent-color);
   --bg-gradient: repeating-linear-gradient(
       to right,
       #000,
@@ -36,6 +37,7 @@
   --bg-color: #fff;
   --accent-color: #000;
   --stroke-color: #fff;
+  --svg-fill-color: var(--bg-color);
   --bg-gradient: repeating-linear-gradient(
       to right,
       #d3d3d3,
@@ -62,6 +64,7 @@
     --bg-color: #fff;
     --accent-color: #000;
     --stroke-color: #fff;
+    --svg-fill-color: var(--bg-color);
     --bg-gradient: repeating-linear-gradient(
         to right,
         #d3d3d3,
@@ -89,6 +92,7 @@
     --bg-color: #000;
     --accent-color: #00cc14;
     --stroke-color: #000;
+    --svg-fill-color: var(--accent-color);
     --bg-gradient: repeating-linear-gradient(
         to right,
         #000,
