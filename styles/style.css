@@ -99,7 +99,8 @@
   transition: opacity 0.3s ease;
 }
 
-.theme-menu__button:focus, .theme-menu__button:hover {
+.theme-menu__button:focus,
+.theme-menu__button:hover {
   outline: none;
   opacity: 0.6;
 }

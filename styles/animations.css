@@ -127,7 +127,10 @@
     )
     right;
   background-size: 200%;
-  transition: background 0.5s ease-in-out, color 0.5s ease-in-out, box-shadow 0.3s ease;
+  transition:
+    background 0.5s ease-in-out,
+    color 0.5s ease-in-out,
+    box-shadow 0.3s ease;
 }
 
 .content-button:hover {
@@ -145,5 +148,5 @@
 }
 
 .card__icon-button:focus-visible {
-  border-color: var(--accent-color); 
+  border-color: var(--accent-color);
 }
