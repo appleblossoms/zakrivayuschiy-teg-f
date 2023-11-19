@@ -272,14 +272,9 @@
 .floppy-icon {
   width: 28px;
   height: 28px;
-}
-
-#floppy {
   mix-blend-mode: difference;
-}
-
-#floppy path {
   fill: var(--svg-fill-color);
+  stroke: var(--svg-fill-color);
 }
 
 /* popup */
@@ -287,6 +282,8 @@
 .big-floppy {
   width: 39px;
   height: 39px;
+  fill: var(--accent-color);
+  stroke: var(--accent-color);
 }
 
 .popup {
