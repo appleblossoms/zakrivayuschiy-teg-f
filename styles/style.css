@@ -78,7 +78,11 @@
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
-.sub-header {
+.header__link {
+  text-decoration: none;
+}
+
+.header__sub-heading {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 }
 
