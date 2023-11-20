@@ -109,12 +109,12 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: 0.1s scale 0.3s ease-in alternate-reverse;
+  animation: 0.1s scale 0.3s ease-in alternate;
   transform-origin: center;
 }
 
 .like-icon.is-liked .sparks {
-  animation: 0.3s sparks-animation 0.3s ease-in alternate-reverse;
+  animation: 0.3s sparks-animation 0.3s ease-in alternate;
 }
 
 /* button animations */
